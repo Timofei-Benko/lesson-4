@@ -1,0 +1,256 @@
+/*=====================================
+GENERAL SET-UP
+=====================================*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    background-color: #FF7f50;
+}
+
+.main-wrap {
+    width: 1400px;
+    margin: 0 auto;
+}
+    
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+li {
+    display: inline-block;
+}
+.title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.underline {
+    width: 64px;
+    height: 2px;
+    border: none;
+}
+
+.descr {
+    font-size: 14px;
+}
+
+.btn {
+    display: inline-block;
+    margin-bottom: 63px;
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+.btn:hover {
+    background-color: #FFFFFF;
+    color: #86878B;
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.input-group__input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid #ece9e9cc;
+}
+
+.input-group__input::placeholder {
+    color: #b6aeaecc;
+}
+
+.facebook {
+    background: url(../img/icons/facebook.png) center no-repeat;
+}
+
+.twitter {
+    background: url(../img/icons/twitter.png)
+}
+
+/*=====================================
+NAVIGATION
+=====================================*/
+
+.nav {
+    position: relative;
+    height: 71px;
+    background-color: #212121;
+}
+
+.nav__logo {
+    display: inline-block;
+    width: 79px;
+    height: 27px;
+    margin-top: 21px;
+    margin-left: 150px;
+    background: url(../img/axit-logo.png) center no-repeat;
+    background-size: cover;
+}
+
+.nav__list {
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+
+.nav__item:first-of-type {
+    padding-left: 582px;
+}
+
+.nav__item {
+    padding-left: 48px;
+}
+
+.intro {
+    position: relative;
+    height: 641px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg/city-big.png) center no-repeat;
+}
+
+.intro-text-container {
+    display: inline-block;
+    width: 662px;
+    padding-top: 110px;
+    padding-left: 150px;
+    text-align: left;
+}
+
+.intro-text-container__logo {
+    height: 60px;
+    width: 175px;
+    background: url(../img/axit-logo.png) center no-repeat;
+    background-size: cover;
+}
+
+.intro-text-container__title {
+    padding-top: 33px;
+}
+
+.intro-text-container__underline {
+    margin: 36px auto 30px 0;
+    background-color: #FFFFFF;
+}
+
+.intro-text-container__descr {
+    padding-bottom: 44px;
+}
+
+.intro-input-group__header {
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    background-color: #F5F5F5;
+}
+
+.intro-input-group__header span {
+    text-transform: uppercase;
+    color: #FF8D2D;
+}
+
+.intro-input-group {
+    position: absolute;
+    bottom: 110px;
+    right: 110px;
+    display: inline-block;
+    height: 368px;
+    width: 360px;
+    background-color: #FFFFFF;
+}
+
+.intro-input-group__input-pass {
+    padding-top: 50px;
+}
+
+form {
+    width: 285px;
+    margin: 0 auto;
+}
+
+.intro-input-group__submit-btn {
+    width: 100%;
+    background-color: #FF8D2D;
+    border: none;
+    color: #FFFFFF;
+    padding: 20px 3px;
+    text-decoration: none;
+    margin: 50px 0;
+    cursor: pointer;
+}
+
+.social-media-container {
+    height: 106px;
+    background-color: #FFFFFF;
+}
+
+.social-media-text {
+    display: inline-block;
+    width: 360px;
+    margin-left: 150px;
+}
+
+.social-media-text__title {
+    padding-top: 23px;
+    font-size: 20px;
+    color: #333333;
+}
+
+.social-media-text__descr {
+    padding-top: 12px;
+    font-size: 14px;
+    color: #86878B;
+}
+
+.social-media-nav {
+    display: inline-block;
+}
+
+.social-media-nav__list {
+    height: 46px;
+}
+
+.social-media-nav__link {
+    height: 46px;
+    width: 46px;
+}
+
+.social-media-nav__item:first-of-type {
+    margin-left: 87px;
+}
+
+.social-media-nav__item {
+    height: 46px;
+    width: 46px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+    background-size: cover;
+}
+
+/*=====================================
+TABS
+=====================================*/
+
+
+
+
+
