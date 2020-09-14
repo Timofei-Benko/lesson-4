@@ -85,6 +85,26 @@ li {
     background: url(../img/icons/twitter.png)
 }
 
+.google-plus {
+    background: url(../img/icons/google-plus.png)
+}
+
+.pinterest {
+    background: url(../img/icons/pinterest.png);
+}
+
+.instagram {
+    background: url(../img/icons/instagram.png);
+}
+
+.stumbleupon {
+    background: url(../img/icons/stumbleupon.png)
+}
+
+.rss {
+    background: url(../img/icons/rss.png);;
+}
+
 /*=====================================
 NAVIGATION
 =====================================*/
@@ -120,8 +140,11 @@ NAVIGATION
     padding-left: 48px;
 }
 
+/*=====================================
+INTRODUCTIONARY SECTION
+=====================================*/
+
 .intro {
-    position: relative;
     height: 641px;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/bg/city-big.png) center no-repeat;
 }
@@ -169,12 +192,10 @@ NAVIGATION
 }
 
 .intro-input-group {
-    position: absolute;
-    bottom: 110px;
-    right: 110px;
     display: inline-block;
     height: 368px;
     width: 360px;
+    margin-left: 222px;
     background-color: #FFFFFF;
 }
 
@@ -198,6 +219,10 @@ form {
     cursor: pointer;
 }
 
+/*=====================================
+BIG SOCIAL MEDIA SECTION
+=====================================*/
+
 .social-media-container {
     height: 106px;
     background-color: #FFFFFF;
@@ -210,7 +235,7 @@ form {
 }
 
 .social-media-text__title {
-    padding-top: 23px;
+    padding-top: 13px;
     font-size: 20px;
     color: #333333;
 }
@@ -250,7 +275,296 @@ form {
 TABS
 =====================================*/
 
+.tabs-container {
+    height: 596px;
+    background-color: #fbfbfb;
+}
 
+.tab-blocks {
+    display: inline-block;
+    height: 338px;
+    width: 112px;
+    padding-left: 150px;
+    padding-top: 148px;
+}
 
+.tab-blocks__block {
+    height: 112px;
+    width: 112px;
+    background-color: #333333;
+}
 
+.tab-blocks__block:first-of-type {
+    background-color: #FF8B38;
+}
 
+.tab-blocks__block:nth-of-type(2) {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.tab-blocks__text {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 112px;
+}
+
+.tabs-text {
+    display: inline-block;
+    width: 436px;
+    margin-left: 199px;
+}
+
+.tabs-text__title {
+    margin-bottom: 52px;
+    color: #000000;
+}
+
+.tabs-text__descr {
+    font-size: 14px;
+    color: #86878B;
+}
+
+.tabs-text__descr:first-of-type {
+    margin-bottom: 25px;
+}
+
+.tabs-text__btn {
+    display: inline-block;
+    margin-top: 41px;
+    padding: 15px 30px;
+    background-color: #FF8B38;
+    border: 2px solid #FF8B38;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.tabs-city-img {
+    display: inline-block;
+    height: 253px;
+    width: 320px;
+    margin-left: 103px;
+    margin-top: 171px;
+    background: url(../img/city-aside.png) center no-repeat;
+}
+
+/*=====================================
+WHY THIS IS AWESOME FEATURES SECTION
+=====================================*/
+
+.features-container {
+    height: 593px;
+    background-color: #FFFFFF;
+}
+
+.features-main-text {
+    padding-top: 109px;
+}
+
+.features-main-text__title {
+    text-align: center;
+    color: #212121;
+}
+
+.features-main-text__underline {
+    margin: 30px auto;
+    background-color: #FF8D2D;
+}
+
+.features-main-text__descr {
+    text-align: center;
+    color:#86878B;
+}
+
+.features-cards {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.features-card {
+    display: inline-block;
+    height: 197px;
+    width: 350px;
+    font-size: 0;
+}
+
+.features-card__icon {
+    width: 68px;
+    height: 68px;
+    margin: 0 auto;
+    border: 2px solid #FF8D2D;
+    border-radius: 50%;
+    font-size: 28px;
+    color: #FF8D2D;
+}
+
+.features-card__title {
+    padding: 25px 0;
+    font-size: 20px;
+    color: #212121;
+    text-align: center;
+}
+
+.features-card__descr {
+    width: 350px;
+    height: 57px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #86878B;
+    text-align: center;
+}
+
+.lightbulb-icon {
+    background: url(../img/icons/lightbulb.png) center no-repeat;
+    background-size: 30px 30px;
+}
+
+.keyboard-icon {
+    background: url(../img/icons/keyboard.png) center no-repeat;
+    background-size: 30px 30px;
+}
+
+.keyboard-icon {
+    background: url(../img/icons/keyboard.png) center no-repeat;
+    background-size: 30px 30px;
+}
+
+.lightning-bolt-icon {
+    background: url(../img/icons/lightning-bolt.png) center no-repeat;
+    background-size: 30px 30px;  
+}
+
+/*=====================================
+PRICING SECTION
+=====================================*/
+
+.pricing-container {
+    height: 884px;
+    background-color:#fbfbfb;
+}
+
+.pricing-main-text {
+    padding-top: 109px;
+}
+
+.pricing-main-text__title {
+    text-align: center;
+    color: #212121;
+}
+
+.pricing-main-text__underline {
+    margin: 30px auto;
+    background-color: #FF8D2D;
+}
+
+.pricing-main-text__descr {
+    text-align: center;
+    color:#86878B;
+}
+
+.pricing-cards-container {
+    height: 497px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+.pricing-card-short {
+    display: inline-block;
+    padding-top: 35px;
+    height: 462px;
+    width: 343px;
+}
+
+.pricing-card-short:first-of-type {
+    margin-left: 140px;
+}
+
+.pricing-card__title-section {
+    height: 59px;
+    margin-bottom: 1px;
+    background-color: #333333;
+}
+
+.pricing-card__title {
+    font-size: 20px;
+    text-align: center;
+    line-height: 59px;
+}
+
+.pricing-card__price-section {
+    height: 100px;
+    margin-bottom: 1px;
+    background-color: #333333;
+}
+
+.pricing-card__price {
+    font-family: 'Raleway', sans-serif;
+    font-size: 90px;
+    text-align: center;
+    vertical-align: bottom;
+}
+
+.pricing-card__price::first-letter {
+    font-size: 35px;
+}
+
+.pricing-card__subtitle-section {
+    height: 56px;
+    background-color: #333333;
+    border-bottom: 5px solid #FF8D2D;
+}
+
+.pricing-card__subtitle-section:nth-of-type(2) {
+    height: 56px;
+    background-color: #333333;
+    border-bottom: none;
+}
+
+.pricing-card__subtitle {
+    font-size: 14px;
+    font-style: italic;
+    color: #86878B;
+    text-align: center;
+    line-height: 50px;
+}
+
+.pricing-card__descr {
+    background-color: #FFFFFF;
+}
+
+.pricing-card__descr-item {
+    height: 40px;
+    border-bottom: 0.5px solid #e6e6e6;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #86878B;
+    text-align: center;
+    line-height: 40px;
+}
+
+.pricing-card__descr-item:last-child {
+    border-bottom: none;
+}
+
+.pricing-card-tall {
+    display: inline-block;
+    height: 497px;
+    width: 343px;
+    margin: auto 40px;
+}
+
+.pricing-card__orange-box {
+    height: 40px;
+    background-color: #FF8B38;
+}
+
+.pricing-card__orange-box__title {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 40px;
+}
