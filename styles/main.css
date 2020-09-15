@@ -28,6 +28,7 @@ ul {
 li {
     display: inline-block;
 }
+
 .title {
     font-family: 'Raleway', sans-serif;
     font-size: 36px;
@@ -110,9 +111,16 @@ NAVIGATION
 =====================================*/
 
 .nav {
-    position: relative;
     height: 71px;
+    line-height: 15px;
     background-color: #212121;
+}
+
+.nav::before {    
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
 }
 
 .nav__logo {
@@ -126,10 +134,12 @@ NAVIGATION
 }
 
 .nav__list {
+    height: 15px;
+    vertical-align: middle;
+    margin-bottom: 15px;
     font-size: 14px;
     font-weight: 700;
     color: #FFFFFF;
-    padding-bottom: 30px;
 }
 
 .nav__item:first-of-type {
@@ -228,6 +238,13 @@ BIG SOCIAL MEDIA SECTION
     background-color: #FFFFFF;
 }
 
+.social-media-container::before {    
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
 .social-media-text {
     display: inline-block;
     width: 360px;
@@ -248,27 +265,27 @@ BIG SOCIAL MEDIA SECTION
 
 .social-media-nav {
     display: inline-block;
+    vertical-align: middle;
 }
 
 .social-media-nav__list {
     height: 46px;
+    margin-bottom: 60px;
 }
 
 .social-media-nav__link {
+    display: block;
     height: 46px;
     width: 46px;
+    background-size: cover;
+}
+
+.social-media-nav__item {
+    margin-right: 45px;
 }
 
 .social-media-nav__item:first-of-type {
     margin-left: 87px;
-}
-
-.social-media-nav__item {
-    height: 46px;
-    width: 46px;
-    margin-bottom: 20px;
-    margin-right: 50px;
-    background-size: cover;
 }
 
 /*=====================================
@@ -278,6 +295,13 @@ TABS
 .tabs-container {
     height: 596px;
     background-color: #fbfbfb;
+}
+
+.tabs-container::before {
+    content: "";
+    display: inline-blck;
+    height: 100%;
+    vertical-align: middle;
 }
 
 .tab-blocks {
@@ -315,6 +339,15 @@ TABS
     display: inline-block;
     width: 436px;
     margin-left: 199px;
+    margin-bottom: 230px;
+    vertical-align: middle;
+}
+
+.tabs-text::before {
+    content: "";
+    display: inline-blck;
+    height: 100%;
+    vertical-align: middle;
 }
 
 .tabs-text__title {
@@ -334,7 +367,7 @@ TABS
 .tabs-text__btn {
     display: inline-block;
     margin-top: 41px;
-    padding: 15px 30px;
+    padding: 13px 30px;
     background-color: #FF8B38;
     border: 2px solid #FF8B38;
     color: #FFFFFF;
@@ -536,11 +569,13 @@ PRICING SECTION
 }
 
 .pricing-card__descr-item {
+    display: block;
     height: 40px;
+    width: 343px;
     border-bottom: 0.5px solid #e6e6e6;
+    color: #86878B;
     font-size: 14px;
     text-transform: uppercase;
-    color: #86878B;
     text-align: center;
     line-height: 40px;
 }
