@@ -550,10 +550,12 @@ PRICING SECTION
     border-bottom: 5px solid #FF8D2D;
 }
 
-.pricing-card__subtitle-section:nth-of-type(2) {
-    height: 56px;
-    background-color: #333333;
+.pricing-card-tall .pricing-card__subtitle-section {
     border-bottom: none;
+}
+
+.pricing-card-tall .pricing-card__subtitle {
+    line-height: 56px;
 }
 
 .pricing-card__subtitle {
@@ -603,3 +605,5 @@ PRICING SECTION
     text-transform: uppercase;
     line-height: 40px;
 }
+
+
