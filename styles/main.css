@@ -606,4 +606,29 @@ PRICING SECTION
     line-height: 40px;
 }
 
+.customer-review-container {
+    height: 592px;
+    background-color: #FFFFFF;
+}
+
+.customer-review-main-text {
+    padding-top: 109px;
+    padding-bottom: 55px;
+}
+
+.customer-review-main-text__title {
+    text-align: center;
+    color: #212121;
+}
+
+.customer-review-main-text__underline {
+    margin: 30px auto;
+    background-color: #FF8D2D;
+}
+
+.customer-review-main-text__descr {
+    text-align: center;
+    color:#86878B;
+}
+
 
